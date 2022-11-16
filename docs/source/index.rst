@@ -1,23 +1,28 @@
-Welcome to Lumache's documentation!
-===================================
+.. Ensemble Tools documentation master file, created by
+   sphinx-quickstart on Wed Aug  9 17:36:52 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Welcome to Ensemble Tools's documentation!
+==========================================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+Contents:
 
 .. toctree::
+    :maxdepth: 2
 
-   usage
-   api
-   markdown
+    clustering.rst
+    io.rst
+    interpolation.rst
+    plot.rst
+    post.rst
+    scores.rst
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
